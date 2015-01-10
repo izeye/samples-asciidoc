@@ -1,0 +1,3 @@
+:java_version: 1.7
+
+include::https://raw.github.com/spring-guides/getting-started-macros/master/prereq_editor_jdk_buildtools.adoc[]
