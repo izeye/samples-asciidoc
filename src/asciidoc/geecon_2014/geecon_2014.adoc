@@ -1,0 +1,61 @@
+= Hello, GeeCON!
+Doc Writer <doc@example.com>
+
+:geecon: This conference is so cool!
+
+An introduction to http://asciidoc.org[AsciiDoc].
+
+== First Section
+
+* item 1
+* item 2
+  ** subitem 1
+
+*{geecon}*
+
+[source,ruby]
+[subs="attributes"]
+----
+puts "Hello, World!"
+puts {geecon}
+----
+
+[cols="2*"]
+|===============
+| First | Second
+| 1     | 2
+|===============
+
+Let's write some _italics_ and *bold* words and maybe some +code+ (also like `this`).
+
+? \+code+ doesn't work...
+
+*_bolditalic_*
+
+_*italicbold*_
+
+* item 1
+Thingy1:: has some value
+Thingy2:: has no value
+
+.samples/asciidoc/HelloWorld.java
+[source,java]
+----
+include::{rootdir}/src/main/java/samples/asciidoc/HelloWorld.java[lines=6..-1]
+----
+<1> main() method
+<2> println() method
+
+.samples/asciidoc/HelloWorld.java
+[source,java]
+----
+include::{rootdir}/src/main/java/samples/asciidoc/HelloWorld.java[tags=main,indent=0]
+----
+
+:linkattrs:
+
+include::_links.adoc[]
+
+{link_google}
+
+Note: :linkattrs: is need to use window="_blank".

@@ -11,6 +11,16 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'org.asciidoctor.gradle.asciidoctor'
 
+asciidoctor {
+    options = [
+        attributes: [
+            'toc': 'left',
+            'allow-uri-read': '',
+            'linkattrs': ''
+        ]
+    ]
+}
+
 sourceCompatibility = 1.5
 version = '1.0'
 

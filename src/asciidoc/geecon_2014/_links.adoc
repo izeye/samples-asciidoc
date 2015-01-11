@@ -1,0 +1,1 @@
+:link_google: link:http://www.google.com[Google, window="_blank"]
