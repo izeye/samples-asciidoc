@@ -1,0 +1,5 @@
+NOTE: This is a test for "NOTE:".
+And this is another test for a new line.
+
+NOTE: This is a test for "NOTE:". +
+And this is another test for a new line with "+".
